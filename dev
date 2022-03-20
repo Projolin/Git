@@ -1,0 +1,70 @@
+ git branch dev
+   85  git branch
+   86  git checkout dev
+   87  git branch
+   88  git log --oneline
+   89  vi test
+   90  git commit -a -m "New Branch First Commit"
+   91  git log --oneline
+   92  git checkout master
+   93  git log --oneline
+   94  git status
+   95  clear
+   96  git merge dev
+   97  git log --oneline
+   98  history
+   99  cleat
+  100  clear
+  101  ls -ltr
+  102  git branch
+  103  vi error
+  104  ls -ltr
+  105  git status
+  106  git clean –f
+  107  git clean –n
+  108  cd ..
+  109  clear
+  110  mkdir conflitbranch
+  111  cd conflitbranch/
+  112  vi new
+  113  git status
+  114  git init
+  115  git status
+  116  git add mew
+  117  git add new
+  118  clear
+  119  git commit -m "1st line"
+  120  git branch
+  121  git branch prod
+  122  git branch
+  123  git checkout prod
+  124  git log --online
+  125  git log --oneline
+  126  vi new
+  127  git commit -a -m "second line"
+  128  git checkout master
+  129  vi new
+  130  git commit -a -m "2nd line"
+  131  git merge prod
+  132  git log
+  133  clear
+  134  git config --global merge.tool vimdiff
+  135  git config --global merge.conflictstyle diff3
+  136  git config --global mergetool.prompt false
+  137  git config -l
+  138  git mergetool
+  139  git merge prod
+  140  git commit -a -m "Merge Commit"
+  141  git merge prod
+  142  git mergetool
+  143  git log
+  144  clear
+  145  git log --oneline
+  146  git cherry-pick 85717cd
+  147  git cherry-pick f45c842
+  148  git checkout prod
+  149  git merge prod
+  150  git mergetool
+  151  git commit -a -m "Merge Commit1"
+  152  git merge prod
+
