@@ -1,0 +1,32 @@
+GIT- Branch
+Cherry-pick
+Stash
+pull
+clone
+
+
+reset -> staging 
+git reset new - reapply 
+
+
+Stash 
+used when you want to record current state of WD 
+
+git stash
+
+Cherry-pick
+rebase
+Stash
+git stash 
+git stash pop
+git stash apply
+git stash list
+git stash clear
+git stash drop stash@{0}
+git stash save "this is new commit stage"
+
+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
+
+CLONE
+PULL
+Fetch
