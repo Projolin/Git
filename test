@@ -16,4 +16,5 @@ git staus -s - short status
 git commit -a -m "any message" - both add and commit in single command
 git log --oneline - short log
 git remote -v - to see the local and main repo url
+push test file to local repo then to main repo
 
