@@ -67,4 +67,4 @@
   150  git mergetool
   151  git commit -a -m "Merge Commit1"
   152  git merge prod
-
+   create feature branch and merge with master branch
