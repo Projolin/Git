@@ -1,0 +1,20 @@
+yum install git -y - to install git
+git --version - to check whether installed
+mkdir git - create a directory name any name
+cd git/
+ls -ltra - to show hidden files
+vi test
+git init - intialisation to create a local repository .git/ is created
+git status - to check the status
+git add - to move to stage (temp)
+git commit -m "any message" - to move to local repo (permanent) 
+branch created during first commit
+git log
+git ls-files - to list the files which we have committed in local repo
+git config --global user.name "monisha" - without global also no problem
+git staus -s - short status
+git commit -a -m "any message" - both add and commit in single command
+git log --oneline - short log
+git remote -v - to see the local and main repo url
+push test file to local repo then to main repo
+
