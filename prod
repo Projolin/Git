@@ -30,3 +30,12 @@ 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
 CLONE
 PULL
 Fetch
+git config --global merge.tool vimdiff
+  git config --global merge.conflictstyle diff3
+   git config --global mergetool.prompt false
+   git config -l
+   git mergetool
+   git merge prod
+   git commit -a -m "Merge Commit"
+  git merge prod
+   git mergetool
